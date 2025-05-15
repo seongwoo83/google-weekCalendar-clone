@@ -1,0 +1,36 @@
+.weekCalendar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    background: #fff;
+}
+
+.headerRow {
+    display: flex;
+    background: #f5f5f5;
+}
+
+
+.timeCell {
+    width: 60px;
+    min-width: 60px;
+}
+
+.dayHeader {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: 600;
+    font-size: 12px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.dateNum{
+    font-size: 20px;
+}
+
+.bodyRow {
+    display: flex;
+}

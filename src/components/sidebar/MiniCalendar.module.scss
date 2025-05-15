@@ -1,0 +1,24 @@
+.miniCalendar {
+    padding: 8px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+}
+
+.hasEvent {
+    position: relative;
+}
+
+.hasEvent::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: #4285f4;
+    border-radius: 50%;
+}
