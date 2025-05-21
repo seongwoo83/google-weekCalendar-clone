@@ -33,7 +33,7 @@ const EventModal = ({onClose }: EventModalProps) => {
     }
 
     return (
-        <div className={styles.modalBackround} onClick={onClose}>
+        <div className={styles.modalBackround}>
             <div className={styles.modalBackdrop}>
                 <form className={styles.modal} onSubmit={handleSubmit}>
                     <h2>이벤트 추가</h2>
